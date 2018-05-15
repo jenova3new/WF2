@@ -1,0 +1,110 @@
+body {
+  background: #faffad;
+  font-family: sans-serif; monotypecorsiva
+}
+ 
+h2 {
+  color: #000;
+}
+ 
+.login {
+  padding: 1em;
+  margin: 2em auto;
+  width: 27em;
+  background: #ffda53;
+  border-radius: 50px;
+}
+ 
+label {
+  font-size: 10pt;
+  color: #555;
+}
+ 
+input[type="text"],
+input[type="password"],
+textarea {
+  padding: 8px;
+  width: 95%;
+  background: #efefda;
+  border: 0;
+  font-size: 10pt;
+  margin: 6px 0px;
+}
+ 
+.tombol {
+  background: #2ABB9B;
+  color: #fff;
+  border: 0;
+  padding: 5px 8px;
+  margin: 20px 0px;
+}
+
+.content{
+	width: 80%;
+	margin: 10px auto; 
+}
+ 
+/*header*/
+header{
+	background-color: white;
+	padding: 20px 10px;
+	border-radius: 5px;
+	border: 1px solid #f0f0f0;
+	margin-bottom: 10px;
+}
+ 
+
+ 
+header h1.judul,
+header h3.deskripsi{
+	text-align: center;	
+}
+ 
+/*menu navigasi*/
+.menu{
+	background-color: #ffffff;
+	border: 1px solid #f000f0;
+	border-radius: 8px;	
+	margin-bottom: 10px;
+}
+ 
+div.menu ul {
+	list-style:none;
+	overflow: hidden;
+}
+ 
+ 
+div.menu ul li {
+	float:left;		
+	text-transform:uppercase;
+}
+ 
+div.menu ul li b {
+	display:block;	
+	padding:0 20px;
+	text-decoration:none;
+	color:#ffda2c;
+	font-family: sans-serif;
+	font-size:13px;
+	font-weight:400;
+	transition:all 0.3s ease-in-out;
+}
+ 
+div.menu ul li a:hover,
+div.menu ul li a.hoverover {	
+	cursor: pointer;	
+	color:#000;
+}
+ 
+ 
+div.badan{
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid #f0f0f0;
+	margin-bottom: 10px;
+}
+ 
+div.halaman{
+	text-align: center;
+	padding: 30px 20px;	
+}

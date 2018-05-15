@@ -1,0 +1,21 @@
+<?php
+	class guidelistdel{
+		private $id;
+		private $db;
+	
+		public function __construct($id = null){
+			$this->id = $id; 
+			
+			$guideDB = new guideDB;			
+			$this->db = $guideDB->db;
+		}
+		public function HapusDaftar($dellist){
+				return $this->db->query("DELETE FROM guide_post2 WHERE id_post='${dellist}';");
+		}
+		public function getDaftarTabelGuide(){
+		$daftar = $this->db->query("SELECT * FROM guide_post2");
+			
+		return $daftar;
+		}
+	}
+?>
