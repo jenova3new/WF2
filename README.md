@@ -1,1 +1,3 @@
-# WF2
+# wpfBlog
+Dee'mas A. Khoiri Rahmandani
+Muhammad Ansori
